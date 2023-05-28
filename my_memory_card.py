@@ -22,6 +22,7 @@ questions_list.append(Question('Национальная хижина якуто
 questions_list.append(Question('когда короче день?', 'одинаково', 'зимой', 'осенью', 'летом'))
 questions_list.append(Question('зимой и летом одним цветом', 'елка', 'луна', 'снег', 'нет правильно ответа'))
 questions_list.append(Question('что тяжелее?', 'одинаково', 'кг.земли', 'кг.шерсти', 'кг.ваты'))
+questions_list.append(Question("какого языка не существует?", 'Марсианский', 'Португальский', 'Русский', 'Английский'))
 app = QApplication([])
  
 btn_OK = QPushButton('Ответить') # кнопка ответа
